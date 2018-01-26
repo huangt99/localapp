@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4A4241201B67E900F96626 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4A4240201B67E900F96626 /* MapKit.framework */; };
 		7FF965DD2000338B00DD4C1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF965DC2000338B00DD4C1D /* AppDelegate.swift */; };
 		7FF965E02000338B00DD4C1D /* Locatapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FF965DE2000338B00DD4C1D /* Locatapp.xcdatamodeld */; };
 		7FF965E22000338B00DD4C1D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF965E12000338B00DD4C1D /* MasterViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F4A4240201B67E900F96626 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FF965D92000338A00DD4C1D /* Locatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF965DC2000338B00DD4C1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF965DF2000338B00DD4C1D /* Locatapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locatapp.xcdatamodel; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4A4241201B67E900F96626 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F4A423F201B67E800F96626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A4240201B67E900F96626 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7FF965D02000338A00DD4C1D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				7FF965F52000338B00DD4C1D /* LocatappTests */,
 				7FF966002000338B00DD4C1D /* LocatappUITests */,
 				7FF965DA2000338A00DD4C1D /* Products */,
+				7F4A423F201B67E800F96626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
